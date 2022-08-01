@@ -1,13 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL Shortened</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Navbar Section -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">URL Shortener</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron Section -->
+    <!-- <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-4" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div> -->
+    <!-- End Jumbotron -->
+
+    <!-- Main Section -->
+    <main>
+      <!-- URl Section -->
+      <section id="urlbox">
+        <div class="container">
+          <h1>Paste to make URL shorter</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter The Link"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <p class="info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            autem error tempora voluptatibus nisi, deleniti minima inventore
+            alias ad magnam.
+          </p>
+        </div>
+      </section>
+      <!-- End URL -->
+
+      <!-- Information Section -->
+      <section id="information">
+        <div class="container">
+          <h1>Check More</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            facilis ut veritatis fugit, aperiam maxime, quasi qui libero vitae
+            deserunt dignissimos quia necessitatibus, animi ex illo tenetur
+            ipsa? Voluptatem quo voluptate quasi? Debitis ex tempore possimus
+            natus, explicabo ducimus perspiciatis dicta ab nihil fuga incidunt
+            ad enim nobis laudantium delectus.
+          </p>
+        </div>
+      </section>
+      <!-- End Information -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer Section -->
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <h1>Contact</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            facere illo nam suscipit pariatur sequi obcaecati, eaque, rem, sit
+            voluptatibus dolores recusandae ex adipisci eveniet autem repellat
+            alias! Culpa consequuntur expedita laboriosam eveniet quae quis
+            neque perferendis natus, officia nostrum veniam a, iusto sequi esse
+            sint. Dolor, excepturi. Soluta, itaque.
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- End Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
