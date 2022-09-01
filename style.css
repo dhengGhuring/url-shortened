@@ -37,11 +37,8 @@ body {
     background-color: #002b5b;
   } */
   main #urlbox form {
+    width: 90%;
     align-items: center;
-  }
-  main #urlbox form input {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
   }
   main #urlbox .input-container {
     display: flex;
@@ -49,14 +46,20 @@ body {
     align-items: center;
   }
   main #urlbox button {
-    margin-top: 8px;
     background-color: #2b4865;
     color: #fff;
-    margin-left: 100px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 100%;
   }
   main #information {
     width: 100%;
     padding: 10px;
+  }
+  main #information .container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b4865;
   }
   /* End Main */
 
@@ -104,11 +107,8 @@ body {
     background-color: #002b5b;
   } */
   main #urlbox form {
+    width: 60%;
     align-items: center;
-  }
-  main #urlbox form input {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
   }
   main #urlbox .input-container {
     display: flex;
@@ -116,14 +116,20 @@ body {
     align-items: center;
   }
   main #urlbox button {
-    margin-top: 8px;
     background-color: #2b4865;
     color: #fff;
-    margin-left: 100px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 100%;
   }
   main #information {
     width: 100%;
     padding: 10px;
+  }
+  main #information .container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b4865;
   }
   /* End Main */
 
