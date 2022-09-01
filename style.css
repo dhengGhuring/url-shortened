@@ -1,17 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: 'Mukta', sans-serif;
+}
+body {
+  background-color: #f9f9f9 !important;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* Jumbotron Section */
+  .jumbotron h1 {
+    padding-top: 10px;
+    color: #002b5b;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* End Jumbotron */
+
   /* Main Section */
   main #urlbox {
     width: 100%;
-    background-color: blanchedalmond;
     padding: 10px;
   }
-  main #urlbox .info {
-    text-align: justify;
+  main .container {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  main #urlbox h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b4865;
+  }
+  /* main #urlbox .input-container {
+    margin: auto;
+    background-color: #002b5b;
+  } */
+  main #urlbox form {
+    align-items: center;
+  }
+  main #urlbox form input {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  main #urlbox .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #urlbox button {
+    margin-top: 8px;
+    background-color: #2b4865;
+    color: #fff;
+    margin-left: 100px;
   }
   main #information {
     width: 100%;
-    background-color: cadetblue;
     padding: 10px;
   }
   /* End Main */
@@ -19,14 +63,80 @@
   /* Footer Section */
   footer #footer {
     width: 100%;
-    background-color: indianred;
-    padding: 10px;
+  }
+  footer .footer-info p {
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
   }
   /* End Footer */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  /* Jumbotron Section */
+  .jumbotron h1 {
+    padding-top: 10px;
+    color: #002b5b;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* End Jumbotron */
+
+  /* Main Section */
+  main #urlbox {
+    width: 100%;
+    padding: 10px;
+  }
+  main .container {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  main #urlbox h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b4865;
+  }
+  /* main #urlbox .input-container {
+    margin: auto;
+    background-color: #002b5b;
+  } */
+  main #urlbox form {
+    align-items: center;
+  }
+  main #urlbox form input {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  main #urlbox .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #urlbox button {
+    margin-top: 8px;
+    background-color: #2b4865;
+    color: #fff;
+    margin-left: 100px;
+  }
+  main #information {
+    width: 100%;
+    padding: 10px;
+  }
+  /* End Main */
+
+  /* Footer Section */
+  footer #footer {
+    width: 100%;
+  }
+  footer .footer-info p {
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  /* End Footer */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
