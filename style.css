@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 * {
   font-family: 'Mukta', sans-serif;
 }
@@ -10,15 +11,32 @@ body {
 @media only screen and (max-width: 600px) {
   /* Jumbotron Section */
   .jumbotron h1 {
+    font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     color: #fff;
-    font-size: 3rem;
+    font-size: 10vw;
     font-weight: 700;
+    line-height: 0.9;
+  }
+  .jumbotron h1 span {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    color: #f37c62;
+    font-size: 10vw;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+  .jumbotron p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
   }
   /* End Jumbotron */
 
   /* Main Section */
   main #urlbox {
+    margin-top: 50px;
     width: 100%;
     padding: 10px;
   }
@@ -47,12 +65,23 @@ body {
     justify-content: center;
     align-items: center;
   }
+  main #urlbox .input-container .form-control {
+    background-color: #f7f4e3;
+    border: 0;
+    padding: 20px;
+    border-radius: 20px;
+  }
   main #urlbox button {
-    background-color: #2b4865;
-    color: #fff;
+    font-family: 'Poppins' sans-serif;
+    background-color: #f37c62;
+    color: #572015;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
   }
   main #information {
     width: 100%;
@@ -82,10 +111,25 @@ body {
 @media only screen and (min-width: 600px) {
   /* Jumbotron Section */
   .jumbotron h1 {
+    font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     color: #fff;
     font-size: 3rem;
     font-weight: 700;
+  }
+  .jumbotron h1 span {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    color: #f37c62;
+    font-size: 10vw;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+  .jumbotron p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
   }
   /* End Jumbotron */
 
@@ -119,12 +163,22 @@ body {
     justify-content: center;
     align-items: center;
   }
+  main #urlbox .input-container .form-control {
+    background-color: #f7f4e3;
+    border: 0;
+    padding: 20px;
+    border-radius: 20px;
+  }
   main #urlbox button {
-    background-color: #2b4865;
-    color: #fff;
+    background-color: #f37c62;
+    color: #572015;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
   }
   main #information {
     width: 100%;
