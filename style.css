@@ -42,9 +42,10 @@ body {
   }
   main .container {
     border-radius: 20px;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   main #urlbox h1 {
     text-align: center;
@@ -73,8 +74,7 @@ body {
   }
   main #urlbox button {
     font-family: 'Poppins' sans-serif;
-    background-color: #f37c62;
-    color: #572015;
+    color: #fff;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
@@ -82,7 +82,10 @@ body {
     border-radius: 20px;
     font-size: 20px;
     font-weight: 700;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   main #information {
     width: 100%;
@@ -100,8 +103,10 @@ body {
   .feature-2,
   .feature-3 {
     width: 100px;
-    background-color: #f37c62;
+    background: rgba(255, 126, 126, 0.9);
     border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   /* End Main */
 
@@ -151,9 +156,10 @@ body {
   }
   main .container {
     border-radius: 30px;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   main #urlbox h1 {
     text-align: center;
@@ -181,22 +187,24 @@ body {
     border-radius: 20px;
   }
   main #urlbox button {
-    background-color: #f37c62;
-    color: #572015;
+    color: #fff;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
     padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
     border-radius: 20px;
     font-size: 20px;
     font-weight: 700;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   main #urlbox button:hover {
-    border: 2px solid;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
-      rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
-      rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    background: #ff7b5d;
+    box-shadow: 0 0 10px #ff7b5d, 0 0 40px #ff7b5d, 0 0 80px #ff7b5d;
+    transition: 0.7s;
   }
   main #information {
     width: 100%;
@@ -214,8 +222,10 @@ body {
   .feature-2,
   .feature-3 {
     width: 100px;
-    background-color: #f37c62;
+    background: rgba(255, 126, 126, 0.9);
     border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
   }
   /* End Main */
 
