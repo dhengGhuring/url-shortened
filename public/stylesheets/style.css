@@ -5,7 +5,9 @@
 }
 body {
   background-color: #f9f9f9 !important;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/bg-blur.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
