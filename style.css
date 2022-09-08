@@ -15,7 +15,7 @@ body {
   .jumbotron h1 {
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    color: #fff;
+    color: #381460;
     font-size: 10vw;
     font-weight: 700;
     line-height: 0.9;
@@ -23,7 +23,7 @@ body {
   .jumbotron h1 span {
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    color: #f37c62;
+    color: #ffbd39;
     font-size: 10vw;
     font-weight: 700;
     line-height: 0.9;
@@ -32,7 +32,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    color: #fff;
+    color: #381460;
   }
   /* End Jumbotron */
 
@@ -44,10 +44,10 @@ body {
   }
   main .container {
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
   }
   main #urlbox h1 {
     text-align: center;
@@ -76,7 +76,7 @@ body {
   }
   main #urlbox button {
     font-family: 'Poppins' sans-serif;
-    color: #fff;
+    color: #2b4865;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
@@ -101,7 +101,7 @@ body {
   main #urlbox .container .info {
     text-align: justify;
   }
-  main #urlbox .container .head2 .features .feature-1,
+  /* main #urlbox .container .head2 .features .feature-1,
   .feature-2,
   .feature-3 {
     width: 100px;
@@ -109,6 +109,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px);
+  } */
+  main #urlbox .container .head2 .features {
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 20px;
   }
   /* End Main */
 
@@ -117,7 +123,7 @@ body {
     width: 100%;
   }
   footer .footer-info p {
-    color: #fff;
+    color: #381460;
     padding-top: 10px;
     font-size: 1.1rem;
     font-weight: 400;
@@ -131,14 +137,14 @@ body {
   .jumbotron h1 {
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    color: #fff;
+    color: #381460;
     font-size: 3rem;
     font-weight: 700;
   }
   .jumbotron h1 span {
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    color: #f37c62;
+    color: #ffbd39;
     font-size: 10vw;
     font-weight: 700;
     line-height: 0.9;
@@ -147,7 +153,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    color: #fff;
+    color: #381460;
   }
   /* End Jumbotron */
 
@@ -158,10 +164,10 @@ body {
   }
   main .container {
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
   }
   main #urlbox h1 {
     text-align: center;
@@ -183,13 +189,13 @@ body {
     align-items: center;
   }
   main #urlbox .input-container .form-control {
-    background-color: #f7f4e3;
+    background-color: #ffeac8;
     border: 0;
     padding: 20px;
     border-radius: 20px;
   }
   main #urlbox button {
-    color: #fff;
+    color: #381460;
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
@@ -204,9 +210,10 @@ body {
   }
   main #urlbox button:hover {
     border: 1px solid rgba(255, 255, 255, 0) !important;
-    background: #ff7b5d;
-    box-shadow: 0 0 10px #ff7b5d, 0 0 40px #ff7b5d, 0 0 80px #ff7b5d;
-    transition: 0.7s;
+    background: #ffbd39;
+    color: #fff;
+    box-shadow: 0 0 10px #ffbd39, 0 0 40px #ffbd39, 0 0 80px #ffbd39;
+    transition: 0.5s;
   }
   main #information {
     width: 100%;
@@ -220,7 +227,7 @@ body {
   main #urlbox .container .info {
     text-align: justify;
   }
-  main #urlbox .container .head2 .features .feature-1,
+  /* main #urlbox .container .head2 .features .feature-1,
   .feature-2,
   .feature-3 {
     width: 100px;
@@ -228,6 +235,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px);
+  } */
+  main #urlbox .container .head2 .features {
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1), -10px -10px 30px #ffffff;
   }
   /* End Main */
 
@@ -236,7 +250,7 @@ body {
     width: 100%;
   }
   footer .footer-info p {
-    color: #fff;
+    color: #381460;
     padding-top: 10px;
     font-size: 1.1rem;
     font-weight: 400;
