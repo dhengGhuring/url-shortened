@@ -2,17 +2,13 @@ const mongoose = require("mongoose");
 
 let shortenSchema = mongoose.Schema(
   {
-    link: {
+    _id: {
       type: String,
       require: [true, "link is required"],
     },
-    shortenName: {
+    link: {
       type: String,
-      require: [true, "Nama shorten harus diisi"],
-    },
-    noRekening: {
-      type: String,
-      require: [true, "Nomor rekening shorten harus diisi"],
+      require: [true, "link is required"],
     },
   },
   { timestamps: true }

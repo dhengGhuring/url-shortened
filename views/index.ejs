@@ -38,10 +38,11 @@
       <section id="urlbox">
         <div class="container p-3">
           <div class="input-container">
-            <form>
+            <form action="/shorten" method="POST">
               <div class="mb-3 url">
                 <label for="exampleInputEmail1" class="form-label"></label>
                 <input
+                  name="link"
                   type="text"
                   class="form-control"
                   placeholder="Enter The Link"
