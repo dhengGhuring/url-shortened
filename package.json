@@ -16,13 +16,9 @@
     "fastest-validator": "^1.15.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pg": "^8.8.0",
-    "pg-hstore": "^2.3.4",
-    "sequelize": "^6.21.6",
     "short-uuid": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19",
-    "sequelize-cli": "^6.4.1"
+    "nodemon": "^2.0.19"
   }
 }
