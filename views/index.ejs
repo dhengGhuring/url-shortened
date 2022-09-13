@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cut.In</title>
+<<<<<<< HEAD:index.html
     <link rel="stylesheet" href="style.css" />
+=======
+    <link rel="stylesheet" href="stylesheets/style.css" />
+>>>>>>> origin/backend:views/index.ejs
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -42,10 +46,11 @@
       <section id="urlbox">
         <div class="container p-3">
           <div class="input-container">
-            <form>
+            <form action="/shorten" method="POST">
               <div class="mb-3 url">
                 <label for="exampleInputEmail1" class="form-label"></label>
                 <input
+                  name="link"
                   type="text"
                   class="form-control"
                   placeholder="Enter The Link"
@@ -71,12 +76,30 @@
                   class="d-flex flex-row features mt-5 mb-5 text-center"
                   data-tilt
                 >
+<<<<<<< HEAD:index.html
                   <div class="feature-1 me-3">
                     <span style="font-size: 2em; color: #ffbd39">
                       <i class="fa-regular fa-face-smile-beam pt-4"></i>
                     </span>
                     <p>Mudah</p>
                   </div>
+=======
+                  <a
+                    href="https://www.youtube.com"
+                    target="_blank"
+                    style="
+                      text-decoration: none !important;
+                      color: black !important;
+                    "
+                  >
+                    <div class="feature-1 me-3">
+                      <span style="font-size: 2em; color: #ffbd39">
+                        <i class="fa-regular fa-face-smile-beam pt-4"></i>
+                      </span>
+                      <p>Mudah</p>
+                    </div>
+                  </a>
+>>>>>>> origin/backend:views/index.ejs
                   <div class="feature-2 me-3">
                     <span style="font-size: 2em; color: #ffbd39">
                       <i class="fa-regular fa-dollar-sign pt-4"></i>
@@ -93,7 +116,7 @@
               </div>
               <div class="col-12 col-lg-6" data-tilt>
                 <img
-                  src="./assets/images/design1.svg"
+                  src="images/design1.svg"
                   alt=""
                   class="img-fluid ilustrasi"
                 />
@@ -141,7 +164,15 @@
       </section>
     </footer>
     <!-- End Footer -->
+<<<<<<< HEAD:index.html
     <script src="./vanilla-tilt.js"></script>
+=======
+    <script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script>
+    <script>
+      linkvertise(492619, { whitelist: [], blacklist: [""] });
+    </script>
+    <script src="javascripts/vanilla-tilt.js"></script>
+>>>>>>> origin/backend:views/index.ejs
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

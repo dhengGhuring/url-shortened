@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 * {
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 body {
   background-color: #f9f9f9 !important;
+<<<<<<< HEAD:style.css
   background-image: url('/assets/images/bg-blur.svg');
+=======
+  background-image: url("../images/bg-blur.svg");
+>>>>>>> origin/backend:public/stylesheets/style.css
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13,7 +17,7 @@ body {
 @media only screen and (max-width: 600px) {
   /* Jumbotron Section */
   .jumbotron h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     color: #381460;
     font-size: 10vw;
@@ -21,7 +25,7 @@ body {
     line-height: 0.9;
   }
   .jumbotron h1 span {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     color: #ffbd39;
     font-size: 10vw;
@@ -29,7 +33,7 @@ body {
     line-height: 0.9;
   }
   .jumbotron p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: #381460;
@@ -75,7 +79,11 @@ body {
     border-radius: 20px;
   }
   main #urlbox button {
+<<<<<<< HEAD:style.css
     font-family: 'Poppins' sans-serif;
+=======
+    font-family: "Poppins" sans-serif;
+>>>>>>> origin/backend:public/stylesheets/style.css
     color: #2b4865;
     margin-left: 0px;
     margin-bottom: 20px;
@@ -135,14 +143,14 @@ body {
 @media only screen and (min-width: 600px) {
   /* Jumbotron Section */
   .jumbotron h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     color: #381460;
     font-size: 3rem;
     font-weight: 700;
   }
   .jumbotron h1 span {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     color: #ffbd39;
     font-size: 10vw;
@@ -150,7 +158,7 @@ body {
     line-height: 0.9;
   }
   .jumbotron p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: #381460;
