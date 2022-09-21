@@ -9,15 +9,42 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.container {
+  margin-top: 10%;
+  text-align: center;
+}
+.container a {
+  color: #000;
+  text-decoration: none;
+}
+.container a:hover {
+  color: #000;
+}
+.container .btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+  color: #000;
+}
+.container .btn:hover {
+  background: rgba(255, 99, 71, 0.8) !important;
+}
 @media only screen and (max-width: 600px) {
   .container {
     width: 100%;
     border-radius: 20px;
-    background: gba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(50px);
+  }
+  .container h1 {
+    font-size: 150px;
+    color: #3f3d56;
+  }
+  .container .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -25,9 +52,13 @@ body {
     width: 100%;
     padding: 30px;
     border-radius: 20px;
-    background: gba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(50px);
+  }
+  .container h1 {
+    color: #3f3d56;
+    font-size: 200px;
   }
 }
